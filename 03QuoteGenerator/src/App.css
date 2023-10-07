@@ -1,0 +1,18 @@
+.main-box{
+    border: 2px solid black;
+    width: 50%;
+    height: 50vh;
+}
+
+.btn{
+    position: relative;
+    left: 18rem;
+    top: 3rem;
+}
+
+.quote-box{
+    /* border: 2px solid black; */
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
