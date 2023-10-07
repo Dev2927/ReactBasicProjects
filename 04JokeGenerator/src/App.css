@@ -1,0 +1,17 @@
+.main-box{
+    border: 2px solid black;
+    width: 50%;
+    height: 50vh;
+}
+
+.btn{
+    position: relative;
+    top: 2rem;
+    left: 18.5rem;
+}
+
+.joke-box{
+    position: relative;
+    top: 5rem;
+    text-align: center;
+}
