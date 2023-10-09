@@ -13,11 +13,11 @@ function App() {
   ];
 
   const previousButton = () => {
-    setCurrent(current === images.length - 1 ? current : current + 1);
+    setCurrent(current === 0 ? images.length - 1 : current - 1);
   };
 
   const nextButton = () => {
-    setCurrent(current === 0 ? images.length - 1 : current - 1);
+    setCurrent(current === images.length - 1 ? current : current + 1);
   };
 
   return (
